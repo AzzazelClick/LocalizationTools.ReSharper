@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Azzya" type="UtPlSqlConfigurationType" factoryName="utPLSQL Test" editBeforeRun="true" focusToolWindowBeforeRun="true" singleton="false">
+    <method v="2">
+      <option name="LaunchBrowser.Before.Run" />
+    </method>
+  </configuration>
+</component>
