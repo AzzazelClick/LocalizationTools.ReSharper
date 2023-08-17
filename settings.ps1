@@ -14,8 +14,8 @@ $VisualStudioInstanceId = $VisualStudio.instanceId
 $DevEnvPath = Get-ChildItem "$VisualStudioBaseDirectory\*\IDE\devenv.exe"
 $MSBuildPath = Get-ChildItem "$VisualStudioBaseDirectory\MSBuild\*\Bin\MSBuild.exe"
 
-$OutputDirectory = "$PSScriptRoot\output"
-$NuGetPath = "$PSScriptRoot\tools\nuget.exe"
+$OutputDirectory =$NuGetPath = "$PSScriptRoot\tools\nuget.exe" "$PSScriptRoot\output"
+
 
 Function Invoke-Exe {
     param(
